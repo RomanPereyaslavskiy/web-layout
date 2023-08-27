@@ -183,6 +183,15 @@ body {
     padding: 50px 0;
 }
 
+.container-modules h1 {
+    color: #3F2AFF;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .modules-logo {
     margin-bottom: 25px;
 }
@@ -194,5 +203,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    background-image: url("../img/");
+    padding-left: 30px;
+    background-image: url("../img/Arrow1.svg");
+    background-position: left center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
 }
