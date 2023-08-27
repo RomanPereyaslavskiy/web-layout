@@ -180,5 +180,19 @@ body {
 .container-modules {
     width: 1170px;
     margin: 0 auto;
-    padding: 50px 375px;
+    padding: 50px 0;
+}
+
+.modules-logo {
+    margin-bottom: 25px;
+}
+
+.back-to-main {
+    color: #3F2AFF;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url("../img/");
 }
