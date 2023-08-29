@@ -190,6 +190,8 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .modules-logo {
@@ -197,6 +199,8 @@ body {
 }
 
 .back-to-main {
+    margin: 0;
+    margin-bottom: 25px;
     color: #3F2AFF;
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -209,3 +213,86 @@ body {
     background-size: 20px 20px;
     background-repeat: no-repeat;
 }
+
+.modules-list {
+    width: 1170px;
+    height: 1050px;
+    font-size: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.module-list-item {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 572px;
+    height: 505px;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    box-shadow: -1px 1px 10px #333;
+}
+
+.block-number {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    margin: 0;
+    color: #EAEAEA;
+    text-align: right;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.module-list-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.module-list-item h2 {
+    margin: 0;
+    margin-bottom: 2px;
+    padding-top: 25px;
+    padding-left: 25px;
+    color: #3F2AFF;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+.inside-list {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.modules-inside-list {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%; /* 33px */    
+}
+
+.show-more-block {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 25px 76px;
+    display: block;
+    border: 2px solid #3F2AFF;
+    background-color: #fff;
+    color: #3F2AFF;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
